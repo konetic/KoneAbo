@@ -6,8 +6,8 @@ import javax.swing.JOptionPane;
 import javax.swing.text.View;
 /**
  * 
- * @author 
- * @version 
+ * @author Tesfaye
+ * @version 3
  */
 public class Controller implements ActionListener {
 

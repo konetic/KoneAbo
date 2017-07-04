@@ -3,8 +3,8 @@ import java.awt.*;
 import javax.swing.*;
 /**
  * 
- * @author 
- * @version 
+ * @author Tesfaye
+ * @version 3
  */
 public interface ModelListener {
 /**

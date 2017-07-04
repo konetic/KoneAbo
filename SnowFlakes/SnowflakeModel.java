@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 /**
  * 
- * @author 
- * @version 
+ * @author Tesfaye
+ * @version 3
  */
 public class SnowflakeModel {
 	// instance variables

@@ -7,14 +7,14 @@ import javax.swing.*;
 
 /**
  * 
- * @author 
- * @version 
+ * @author Tesfaye
+ * @version 3
  */
-public class SnowflakeView1 extends JPanel implements ModelListener {
+public class SnowflakeViewOne extends JPanel implements ModelListener {
 
 	private SnowflakeModel model;
 
-	public SnowflakeView1(SnowflakeModel m) {
+	public SnowflakeViewOne(SnowflakeModel m) {
 		model = m;
 	}
 

@@ -5,8 +5,8 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 /**
  * 
- * @author
- * @version
+ * @author Tesfaye
+ * @version 3
  */
 public class SnowflakeButtons extends JPanel {
 	/**

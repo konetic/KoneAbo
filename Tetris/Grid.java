@@ -11,8 +11,8 @@ import java.awt.*;
  * occupied (i.e. a piece cannot move over/to an occupied square).  A grid will also remove 
  * completely full rows.
  * 
- * @author Tesfaye Belete
- * @version Belete_HW1 04/07/2016
+ * @author Tesfaye
+ * @version 3
  */
 public class Grid
 {

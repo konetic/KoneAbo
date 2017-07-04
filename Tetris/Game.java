@@ -5,8 +5,8 @@ import java.awt.*;
  * Manages the game Tetris.  Keeps track of the current piece and the grid.
  * Updates the display whenever the state of the game has changed.
  * 
- * @author Tesfaye Belete
- * @version Belete_HW1 04/07/2016
+ * @author Tesfaye
+ * @version 3
  */
 public class Game
 {

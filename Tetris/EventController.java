@@ -5,8 +5,8 @@ package Tetris;
  * Handles events for the Tetris Game.  User events (key strokes) as well as periodic timer
  * events.
  * 
- * @author Tesfaye Belete
- * @version Belete_HW1 04/07/2016
+ * @author Tesfaye
+ * @version 3
  */
 import java.awt.event.*;
 import javax.swing.*;
@@ -20,7 +20,10 @@ public class EventController extends KeyAdapter implements ActionListener
                                                    //increase to slow it down
     private boolean gameOver;
     
-    
+    /**
+     * Constructor for objects of class EventController
+     * @param g the game this is controlling
+     */
     public EventController(Game g) {
         theGame = g;
         gameOver = false;

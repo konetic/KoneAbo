@@ -1,0 +1,31 @@
+package crittersProject;
+/*
+* @author Tesfaye
+* @version 3
+*/
+// CritterMain provides the main method for a simple simulation program.  Alter
+// the number of each critter added to the simulation if you want to experiment
+// with different scenarios.  You can also alter the width and height passed to
+// the CritterFrame constructor.
+
+public class CritterMain {
+    public static void main(String[] args) {
+        CritterFrame frame = new CritterFrame(60, 40);
+
+        // uncomment each of these lines as you complete these classes
+        // frame.add(30, Bear.class);
+        // frame.add(30, Lion.class);
+        // frame.add(30, Giant.class);
+       // frame.add(30, Flit.class);
+
+        frame.add(30, Phantoma.class);
+        frame.add(30, Chromista.class);
+        frame.add(30, Amoeba.class);
+        frame.add(30, Spot.class);
+        frame.add(30, Species1.class);
+        frame.add(30, Species2.class);
+        frame.add(30, Species3.class);
+        frame.add(30, Species4.class);
+        frame.start();
+    }
+}

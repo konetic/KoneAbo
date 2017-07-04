@@ -8,8 +8,8 @@ import javax.swing.JFrame;
 
 /**
  * 
- * @author 
- * @version 
+ * @author Tesfaye
+ * @version 3
  */
 public class SnowflakeMain {
 
@@ -26,7 +26,7 @@ public class SnowflakeMain {
 
 		Controller c = new Controller(m);
 
-		SnowflakeView1 v = new SnowflakeView1(m);
+		SnowflakeViewOne v = new SnowflakeViewOne(m);
 		m.setView(v);
 		JFrame JF = new JFrame();// construct the frame
 		JF.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// exit the program

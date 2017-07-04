@@ -4,8 +4,8 @@ import java.awt.*;
 /**
  * One Square on our Tetris Grid or one square in our Tetris game piece
  * 
- * @author Tesfaye Belete
- * @version Belete_HW1 04/07/2016
+ * @author Tesfaye
+ * @version 3
  */
 public class Square
 {
