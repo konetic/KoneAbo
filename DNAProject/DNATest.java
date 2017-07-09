@@ -1,10 +1,8 @@
 package DNAProject;
 
-/*This program reports information about DNA
- *nucleotide sequences that may encode proteins.
+/*This program reports information about DNA  nucleotide sequences that may encode proteins.
  * 
  * @author Tesfaye
- *
  * @version 3
  * 
  */
