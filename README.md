@@ -1,0 +1,3 @@
+# KoneAbo
+
+Editing comparator files
