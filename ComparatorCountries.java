@@ -5,7 +5,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+
 //This is forked to the Wadila project
+//compares countries by country id and country name
+
 class Country implements Comparator<Country>{
     int countryId;
     String countryName;
