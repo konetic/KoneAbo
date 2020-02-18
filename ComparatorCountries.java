@@ -19,11 +19,16 @@ class Country implements Comparator<Country>{
         this.countryName = countryName;
     }
     
+    /*
+@return list of countries by country id
+    */
     public int getCountryId() {
         return countryId;
     }
     
-    
+    /*
+set the country id
+    */
     public void setCountryId(int countryId) {
         this.countryId = countryId;
     }
