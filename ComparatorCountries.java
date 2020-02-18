@@ -20,13 +20,20 @@ class Country implements Comparator<Country>{
     }
     
     /*
+@return list of countries by country id
+*/
+  /*
+
     @return country id
+
     */
     public int getCountryId() {
         return countryId;
     }
     
-    
+    /*
+set the country id
+    */
     public void setCountryId(int countryId) {
         this.countryId = countryId;
     }
@@ -41,7 +48,9 @@ class Country implements Comparator<Country>{
         this.countryName = countryName;
     }
     
-
+/*
+ @return countries by highest id number
+ * */
         public int compare(Country country1, Country country2) {
             
             return (country1.getCountryId() < country2.getCountryId() ) ? -1: (country1.getCountryId() > country2.getCountryId() ) ? 1:0 ;
